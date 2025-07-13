@@ -1,0 +1,31 @@
+# Weighted Sentiment Indicators Project 7/13/2025
+
+## Introduction
+
+This project aims to construct weighted sentiment indicators by analyzing news text and image content. The entire process is executed through a series of Python scripts in sequential order, from data scraping, processing, and analysis to final regression modeling.
+
+## Project Structure and Execution Order
+
+The scripts in this project are designed to be executed sequentially. Please run the scripts in the following numerical order:
+
+1.  `1sina_news_category_crawler.py`: Crawls news categories from Sina News.
+2.  `2news_scraper.py`: Scrapes news content based on the categories.
+3.  `3image_downlowder_final.py`: Downloads images from the news articles.
+4.  `4image_basic_filter.py`: Performs a basic filtering of the downloaded images.
+5.  `5text_analysis_helper.py`: Helper script for text analysis.
+6.  `6clarity_analysis_helper.py`: Helper script for image clarity analysis.
+7.  `7image_quality_processor.py`: Processes the quality of the images.
+8.  `8image_duplicate_selector.py`: Selects images after deduplication.
+9.  `9sentiment_analyzer.py`: Performs sentiment analysis.
+10. `10calculate_daily_photopes_with_dedup.py`: Calculates daily image-based sentiment indicators with deduplication.
+11. `11calculate_daily_textpes.py`: Calculates daily text-based sentiment indicators.
+12. `12merge_and_process_data.py`: Merges and processes the generated data.
+13. `13regresssion.py`: Performs regression analysis to build the final model.
+
+## Dependencies
+
+Before running the project, please ensure that all necessary Python libraries are installed. It is recommended to create a `requirements.txt` file to manage project dependencies.
+
+## Other Scripts
+
+- `delete_dot_underscore_files.py`: A utility script to delete `._` hidden files created by macOS when copying files to a non-HFS+ partition.
