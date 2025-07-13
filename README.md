@@ -22,6 +22,12 @@ The scripts in this project are designed to be executed sequentially. Please run
 12. `12merge_and_process_data.py`: Merges and processes the generated data.
 13. `13regresssion.py`: Performs regression analysis to build the final model.
 
+## Data Files
+
+Due to the large size of some data files, they are hosted on Google Drive. Please download the following files and place them in the appropriate directories as needed:
+
+- [Download Data Files from Google Drive](https://drive.google.com/drive/folders/1Ndokq3pyDSH5tyQiaW5lqUqldYGe_0-J?usp=sharing)
+
 ## Dependencies
 
 Before running the project, please ensure that all necessary Python libraries are installed. It is recommended to create a `requirements.txt` file to manage project dependencies.
